@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Cryblo&#39;s blog</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2021-04-24T06:54:00.074Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>Cryblo</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Markdown</title>
+    <link href="http://example.com/2021/04/20/Markdown/"/>
+    <id>http://example.com/2021/04/20/Markdown/</id>
+    <published>2021-04-19T16:00:00.000Z</published>
+    <updated>2021-04-24T06:54:00.074Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Markdown"><a href="#Markdown" class="headerlink" title="Markdown"></a>Markdown</h2><p>  Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。</p><p>  Markdown 语言在 2004 由约翰·格鲁伯（英语：John Gruber）创建。</p><p>  Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。</p><p>  Markdown 编写的文档后缀为 .md, .markdown。</p><p>推荐工具：<a href="https://typora.io/" title="点击进入Typora官网">Typora</a></p><h3 id="1-标题"><a href="#1-标题" class="headerlink" title="1.标题"></a>1.标题</h3><p>使用 # 号可表示 1-6 级标题，一级标题对应一个 # 号，二级标题对应两个 # 号，以此类推。    </p><p>语法： </p><p># 这是一级标题<br>## 这是二级标题<br>### 这是三级标题   </p><p>显示效果：</p><h1 id="这是一级标题"><a href="#这是一级标题" class="headerlink" title="这是一级标题"></a>这是一级标题</h1><h2 id="这是二级标题"><a href="#这是二级标题" class="headerlink" title="这是二级标题"></a>这是二级标题</h2><h3 id="这是三级标题"><a href="#这是三级标题" class="headerlink" title="这是三级标题"></a>这是三级标题</h3><h3 id="2-段落格式"><a href="#2-段落格式" class="headerlink" title="2.段落格式"></a>2.段落格式</h3><p>Markdown 段落没有特殊的格式，直接编写文字就好，段落的换行是使用两个以上空格加上回车。<br>当然也可以在段落后面使用一个空行来表示重新开始一个段落。  </p><h4 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h4><p>Markdown 可以使用以下几种字体:  </p><p>*斜体文本*             <em>斜体文本</em>      </p><p>_斜体文本_             <em>斜体文本</em>  </p><p>**粗体文本**          <strong>粗体文本</strong>  </p><p>__粗体文本__           <strong>粗体文本</strong>  </p><p>*<strong>粗斜体文本***      *</strong>粗斜体文本***  </p><p>___粗斜体文本___       <strong><em>粗斜体文本</em></strong>  </p><h3 id="分隔线"><a href="#分隔线" class="headerlink" title="分隔线"></a>分隔线</h3><p>你可以在一行中用三个以上的星号、减号、底线来建立一个分隔线，行内不能有其他东西。你也可以在星号或是减号中间插入空格。下面每种写法都可以建立分隔线：  </p><p>语法：  </p><p>***</p><p>* * *</p><p>*****</p><p>- - -</p><p>-———<br>显示效果：  </p><hr><hr><hr><hr><hr><h3 id="删除线"><a href="#删除线" class="headerlink" title="删除线"></a>删除线</h3><p>如果段落上的文字要添加删除线，只需要在文字的两端加上两个波浪线 ~~ 即可，实例如下： </p><p>RUNOOB.COM  </p><p>GOOGLE.COM  </p><p>~~BAIDU.COM~~  </p><p>显示效果如下：  </p><p>RUNOOB.COM</p><p>GOOGLE.COM</p><p><del>BAIDU.COM</del>   </p><h3 id="下划线"><a href="#下划线" class="headerlink" title="下划线"></a>下划线</h3><p>下划线可以通过 HTML 的 <code>&lt;u&gt; </code>标签来实现：</p><p>语法：<br>&lt;u&gt;带下划线文本</u><br>显示效果如下：<br><u>带下划线文本</u> </p><h3 id="脚注"><a href="#脚注" class="headerlink" title="脚注"></a>脚注</h3><p>脚注是对文本的补充说明。</p><p>Markdown 脚注的格式如下:</p><p>[^要注明的文本]  </p><p>以下实例演示了脚注的用法：</p><p>创建脚注格式类似这样 <a href="%E8%BF%99%E6%98%AF%E4%B8%80%E4%B8%AA%E8%84%9A%E6%B3%A8%E3%80%82">^JIAOZHU</a>。</p><h3 id="Markdown-列表"><a href="#Markdown-列表" class="headerlink" title="Markdown 列表"></a>Markdown 列表</h3><p>Markdown 支持有序列表和无序列表。</p><p>无序列表使用星号(*)、加号(+)或是减号(-)作为列表标记，这些标记后面要添加一个空格，然后再填写内容：<br>语法：  </p><p><code>* 第一项</code>  </p><p><code>* 第二项</code>  </p><p><code>* 第三项</code></p><p><code>+ 第一项</code>  </p><p><code>+ 第二项</code>  </p><p><code>+ 第三项</code></p><p><code>- 第一项</code>  </p><p><code>- 第二项</code>  </p><p><code>- 第三项</code><br>显示效果：  </p><ul><li><p>第一项  </p></li><li><p>第二项</p></li><li><p>第三项</p></li></ul><ul><li><p>第一项</p></li><li><p>第二项 </p></li><li><p>第三项</p></li></ul><ul><li><p>第一项  </p></li><li><p>第二项 </p></li><li><p>第三项  </p></li></ul><p>有序列表使用数字并加上 . 号来表示，如：</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">1. 第一项</span><br><span class="line">2. 第二项</span><br><span class="line">3. 第三项</span><br></pre></td></tr></table></figure><h3 id="列表嵌套"><a href="#列表嵌套" class="headerlink" title="列表嵌套"></a>列表嵌套</h3><p>列表嵌套只需在子列表中的选项前面添加四个空格即可：  </p><h1 id="Python"><a href="#Python" class="headerlink" title="Python"></a>Python</h1><h2 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h2><pre><code>1.字母·数字·下划线，不能以数字打头2.用下划线代替空格3.避免使用Python关键字和函数名4.拼写</code></pre><h2 id="字符串"><a href="#字符串" class="headerlink" title="字符串"></a>字符串</h2><pre><code>1.首字母大写：xx.title（）2.全部大写：xx.upper（）3.小写：xx.lower（）4.合并：A. string1 + &quot; &quot; +string2              B. &quot;xxx&quot; + string + &quot;xxx&quot;5.制表符：\t6.换行符：\n7.换行+制表：\n\t8.删除空白        暂时，需存回变量        （1）末尾空白：xx.rstrip（）   暂时，需存回变量        （2）开头：lstrip（）        （3）两端：strip（）</code></pre><h1 id="列表"><a href="#列表" class="headerlink" title="列表"></a>列表</h1><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">form = [<span class="string">&#x27;1&#x27;</span>,<span class="string">&#x27;2&#x27;</span>,<span class="string">&#x27;3&#x27;</span>]</span><br></pre></td></tr></table></figure><pre><code>1.访问：print（form[0]）               索引从0开始2.索引‘ -1 ’可以访问最后一个列表元素 以此类推</code></pre><h2 id="修改，添加，删除元素"><a href="#修改，添加，删除元素" class="headerlink" title="修改，添加，删除元素"></a>修改，添加，删除元素</h2><pre><code>1.修改</code></pre><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">form[<span class="number">0</span>] = <span class="string">&#x27;xx&#x27;</span> </span><br></pre></td></tr></table></figure><pre><code>2.添加</code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"></span><br></pre></td></tr></table></figure><h2 id="使用列表的一部分"><a href="#使用列表的一部分" class="headerlink" title="使用列表的一部分"></a>使用列表的一部分</h2><pre><code>1.切片</code></pre><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">items &#x3D; [&#39;1&#39;,&#39;2&#39;,&#39;3&#39;,&#39;4&#39;]</span><br><span class="line">my_favorite &#x3D; items[0:3]</span><br><span class="line">print(my_favorite)</span><br></pre></td></tr></table></figure><pre><code>2</code></pre><h2 id="if-语句"><a href="#if-语句" class="headerlink" title="if 语句"></a>if 语句</h2>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h2 id=&quot;Markdown&quot;&gt;&lt;a href=&quot;#Markdown&quot; class=&quot;headerlink&quot; title=&quot;Markdown&quot;&gt;&lt;/a&gt;Markdown&lt;/h2&gt;&lt;p&gt;  Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档。&lt;/</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
